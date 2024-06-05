@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    object-fit: cover;
+}
+.main-menu-child {
+    position: absolute;
+    top: 38px;
+    left: 52px;
+    border-radius: 50%;
+    background-color: #d10000;
+    width: 48px;
+    height: 48px;
+}
+.j {
+    position: absolute;
+    top: 43px;
+    left: 67px;
+    font-size: 32px;
+    font-family: Inter;
+    color: #fff;
+    text-align: center;
+}
+.sebastmc285gmailcom {
+    position: absolute;
+    top: 50px;
+    left: 119px;
+    font-size: 24px;
+    text-align: center;
+}
+.main-menu-item {
+    position: absolute;
+    top: 55px;
+    left: 394px;
+    width: 8px;
+    height: 15px;
+}
+.main-menu-inner {
+    position: absolute;
+    top: 237px;
+    left: 278px;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background-color: #d1e8ef;
+    width: 292px;
+    height: 292px;
+}
+.bienvenido {
+    margin: 0;
+}
+.juan {
+    margin: 0;
+    font-size: 44px;
+}
+.bienvenido-juan {
+    position: absolute;
+    top: 276px;
+    left: 310px;
+    font-size: 29px;
+}
+.vector-icon {
+    position: absolute;
+    top: 482px;
+    left: 528px;
+    width: 12px;
+    height: 22px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 237px;
+    left: 592px;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background-color: #fff;
+    width: 1049px;
+    height: 292px;
+}
+.main-menu-child1 {
+    position: absolute;
+    top: 550px;
+    left: 278px;
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    background-color: #dffffd;
+    width: 1363px;
+    height: 292px;
+}
+.group-icon {
+    position: absolute;
+    top: 47px;
+    left: 1830px;
+    width: 31px;
+    height: 31px;
+}
+.main-menu-child2 {
+    position: absolute;
+    top: 284px;
+    left: 639px;
+    border-radius: 16px;
+    background: linear-gradient(145.01deg, #00f0ff, #00a3ff);
+    width: 76px;
+    height: 76px;
+}
+.main-menu-child3 {
+    position: absolute;
+    top: 284px;
+    left: 807px;
+    border-radius: 16px;
+    background: linear-gradient(145.01deg, #ff0000, #ab0a0a);
+    width: 76px;
+    height: 76px;
+}
+.main-menu-child4 {
+    position: absolute;
+    top: 284px;
+    left: 975px;
+    border-radius: 16px;
+    background: linear-gradient(145.01deg, #ff62f9, #8f00ff);
+    width: 76px;
+    height: 76px;
+}
+.f {
+    position: absolute;
+    top: 303px;
+    left: 829px;
+    font-size: 40px;
+    font-family: Iconos;
+    color: #fff;
+}
+.s {
+    position: absolute;
+    top: 301px;
+    left: 994px;
+    font-size: 40px;
+    font-family: Iconos;
+    color: #fff;
+}
+.main-menu-child5 {
+    position: absolute;
+    top: 284px;
+    left: 1143px;
+    border-radius: 16px;
+    background: linear-gradient(145.01deg, #efae06, #ffdf8c);
+    width: 76px;
+    height: 76px;
+}
+.polygon-icon {
+    position: absolute;
+    top: 293px;
+    left: 652px;
+    width: 36.9px;
+    height: 41.7px;
+    object-fit: contain;
+}
+.main-menu-child6 {
+    position: absolute;
+    top: 309.55px;
+    left: 664.92px;
+    width: 36.9px;
+    height: 41.7px;
+    object-fit: contain;
+}
+.ver-mapa {
+    position: absolute;
+    top: 370px;
+    left: 646px;
+    text-align: center;
+}
+.hacer-un-reporte-container {
+    position: absolute;
+    top: 369px;
+    left: 817px;
+    text-align: center;
+}
+.ver-reportes {
+    position: absolute;
+    top: 369px;
+    left: 973px;
+    text-align: center;
+}
+.ver-seguimiento-de-container {
+    position: absolute;
+    top: 368px;
+    left: 1131px;
+    text-align: center;
+}
+.noticias-cerca-de {
+    position: absolute;
+    top: 581px;
+    left: 315px;
+    font-size: 23px;
+}
+.main-menu-child7 {
+    position: absolute;
+    top: 580px;
+    left: 607px;
+    width: 12px;
+    height: 22px;
+}
+.villa-mara-del {
+    position: absolute;
+    top: 583px;
+    left: 1378px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.59);
+}
+.robaron-celulares-a {
+    margin: 0;
+    font-weight: 500;
+}
+.el-comercio- {
+    margin: 0;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.53);
+}
+.detienen-a-2-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.se-confirma-captura-container {
+    position: absolute;
+    top: 0px;
+    left: 374px;
+}
+.capturan-a-el-container {
+    position: absolute;
+    top: 0px;
+    left: 720px;
+}
+.noticias {
+    position: absolute;
+    top: 649px;
+    left: 334px;
+    width: 995px;
+    height: 160px;
+    font-size: 24px;
+    font-family: Roboto;
+}
+.r {
+    position: absolute;
+    top: 304px;
+    left: 1161px;
+    font-size: 40px;
+    font-family: Iconos;
+    color: #fff;
+}
+.main-menu {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 1080px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Sulphur Point';
+}
+
