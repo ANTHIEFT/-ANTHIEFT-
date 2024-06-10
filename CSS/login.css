@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css2?family=SulphurPoint:wght@400;700&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background: #ffffff;
+}
+
+.box-login{
+    width: 686px;
+    height: 858px;
+    background: #00a5ff;
+}
+
+.box-login h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+.box-login .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.box-login input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+
+.input-box input::placeholder{
+    color:#ccc
+}
