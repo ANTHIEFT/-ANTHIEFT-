@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 .Logo_Anthieft {
     text-align: center;
-    padding-top: 20PX;
+    padding-top: 20px;
 }
 
 .la-manera-ms-container {
@@ -14,44 +14,43 @@
 .la-manera-ms {
     font-weight: 300;
 }
+
 .segura {
-    color:#000;
+    color: #000;
     font-family: 'Sulphur Point';
 }
-.la-manera-ms-segura {
-    margin: 0;
-}
+
+.la-manera-ms-segura,
 .de-movilizarte-por {
     margin: 0;
+}
+
+.de-movilizarte-por {
     font-weight: 300;
 }
 
-/*BTN*/
+/* Botón */
 .iniciar {
-/* Colores */
-color: #111111;
-background-color: #ffffff;
-border: 3px solid #1685ca;
-/*------*/
-padding: 30px 160px;
-/* Tipografía */
-font-size: 28px;
-/* Radio */
-border-radius: 10px;
-position: relative;
-overflow: hidden;
-transition: background-color 0.4s ease-in-out;
+    color: #111111;
+    background-color: #ffffff;
+    border: 3px solid #1685ca;
+    padding: 30px 160px;
+    font-size: 28px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.4s ease-in-out;
 }
 
-.iniciar::before{
+.iniciar::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgba(255,255, 255, 0.2);
-    transition: width 0.4sease-in-out;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: width 0.4s ease-in-out;
     z-index: -1;
 }
 
@@ -65,14 +64,16 @@ transition: background-color 0.4s ease-in-out;
 }
 
 .botoniniciar {
-    padding: 40px ;
+    padding: 40px;
     text-align: center;
 }
+
 .footer-child {
     background-color: #d9e3fa;
     width: 100%;
     height: 200px;
 }
+
 .soporte-tcnico {
     margin-block-start: 0;
     margin-block-end: 4px;
@@ -82,8 +83,9 @@ transition: background-color 0.4s ease-in-out;
     margin: 0;
     font-size: 38px;
 }
+
 .soporte-tcnico-01-container {
-    position:relative;
+    position: relative;
     bottom: 150px;
     left: 50px;
 }
@@ -91,7 +93,8 @@ transition: background-color 0.4s ease-in-out;
 .f {
     font-family: Iconos;
 }
-/*Redes sociales*/
+
+/* Redes sociales */
 .f-anthieftperu-t-container {
     position: absolute;
     bottom: 50px;
@@ -99,7 +102,7 @@ transition: background-color 0.4s ease-in-out;
     padding: 10px;
 }
 
-/*Términos y condiciones*/
+/* Términos y condiciones */
 .safecampus-todos-los-container {
     position: absolute;
     width: 40%;
@@ -117,6 +120,7 @@ transition: background-color 0.4s ease-in-out;
     font-size: 26px;
     color: #000;
 }
+
 .first-user-not-logged-in-pag {
     width: 100%;
     height: 920px;
@@ -129,3 +133,87 @@ transition: background-color 0.4s ease-in-out;
     font-family: 'Sulphur Point';
 }
 
+/* Media Queries para Responsividad */
+@media (max-width: 1200px) {
+    .iniciar {
+        padding: 25px 140px;
+        font-size: 24px;
+    }
+
+    .soporte-tcnico-01-container {
+        bottom: 120px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .iniciar {
+        padding: 20px 120px;
+        font-size: 22px;
+    }
+
+    .soporte-tcnico-01-container {
+        bottom: 100px;
+        left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .iniciar {
+        padding: 15px 100px;
+        font-size: 20px;
+    }
+
+    .soporte-tcnico-01-container {
+        bottom: 80px;
+        left: 20px;
+    }
+
+    .safecampus-todos-los-container {
+        width: 60%;
+        left: 20%;
+        font-size: 17px;
+    }
+
+    .p {
+        font-size: 32px;
+    }
+
+    .footer {
+        font-size: 22px;
+    }
+
+    .first-user-not-logged-in-pag {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 576px) {
+    .iniciar {
+        padding: 10px 80px;
+        font-size: 18px;
+    }
+
+    .soporte-tcnico-01-container {
+        bottom: 60px;
+        left: 10px;
+    }
+
+    .safecampus-todos-los-container {
+        width: 80%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .p {
+        font-size: 28px;
+    }
+
+    .footer {
+        font-size: 20px;
+    }
+
+    .first-user-not-logged-in-pag {
+        font-size: 36px;
+    }
+}
