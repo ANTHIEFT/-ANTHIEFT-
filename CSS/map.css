@@ -3,8 +3,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-	font-family: "Sulphur point", "Poppins";
-	margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+body {
+    font-family: "Sulphur point", "Poppins";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+header h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.email-box {
+    display: flex;
+    align-items: center;
+}
+
+.email-box .icon-user {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.email-box .user-email {
+    font-size: 14px;
+}
+
+.logo {
+	height: 80px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+.options-panel {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-right: 1px solid #ddd;
+}
+
+.options-panel h3 {
+    margin-top: 0;
+}
+
+.options-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.options-panel li {
+    margin-bottom: 10px;
+}
+
+.options-panel .low-risk {
+    color: #4caf50;
+	font-weight: 900;
+}
+
+.options-panel .moderate-risk {
+    color: #ff9800;
+	font-weight: 900;
+}
+
+.options-panel .high-risk {
+    color: #f44336;
+	font-weight: 900;
+}
+
+.route-form h3 {
+    margin-top: 20px;
+}
+
+.route-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.route-form label {
+    margin-bottom: 5px;
+}
+
+.route-form input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.map-container {
+    flex: 1;
+    position: relative;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .options-panel {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .map-container {
+        height: 400px;
+    }
 }

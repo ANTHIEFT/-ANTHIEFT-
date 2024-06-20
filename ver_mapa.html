@@ -9,14 +9,40 @@
 <body>
 	<header>
 		<div class="email-box">
-			<img src="/Img/j.png" alt="icon-user">
-			<p>sebastmc285@gmail.com</p>
+			<img src="../-ANTHIEFT-/Img/j.png" alt="Icono de usuario" class="icon-user">
+			<p 
+			class="user-email">sebastmc285@gmail.com</p>
 			<i class='bx bx-chevron-right'></i>
 		</div>
+
 		<h1>ANTHIEFT</h1>
+
 		<a href="/main.html">
-			<img src="/Img/logo.png" alt="Logo de ANTHIEFT" class="logo-img">
+			<img src="../-ANTHIEFT-/Img/logo.png" alt="Logo de ANTHIEFT" class="logo">
 		</a>
 	</header>
+    <main>
+        <div class="options-panel">
+            <h3>Opciones</h3>
+            <ul>
+                <li><input type="checkbox" > Ver zonas de riesgo <span class="low-risk">bajo</span></li>
+                <li><input type="checkbox" > Ver zonas de riesgo <span class="moderate-risk">moderado</span></li>
+                <li><input type="checkbox" > Ver zonas de riesgo <span class="high-risk">alto</span></li>
+                <li><input type="checkbox" > Ver ubicaciones de reportes en tiempo real</li>
+            </ul>
+            <div class="route-form">
+                <h3>Establecer una ruta segura</h3>
+                <form>
+                    <label for="from">Desde:</label>
+                    <input type="text"  placeholder="Escribe una ubicación de origen">
+                    <label for="to">Hacia:</label>
+                    <input type="text"  placeholder="Escribe una ubicación de destino">
+                </form>
+            </div>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62424.23975773535!2d-77.15939426874995!3d-12.076855899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c96528ea4a55%3A0x85a66d70e40870dd!2sUPC%20-%20Campus%20San%20Miguel!5e0!3m2!1ses-419!2spe!4v1718854419926!5m2!1ses-419!2spe" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
 </body>
 </html>
