@@ -14,6 +14,8 @@
 
 <body>
 
+	<div id="preloader"></div>
+	
 	<div class="main-menu">
 		<img class="icon" alt="" src="487298711 1.png">
 
@@ -92,7 +94,15 @@
 		<div class="r">r</div>
 	</div>
 
-
+	<script>
+	
+		var loader = document.getElementById("preloader");
+		
+		window.addEventListener("load", function(){
+			loader.style.display = "none";
+		})
+	
+	</script>
 
 
 </body>
