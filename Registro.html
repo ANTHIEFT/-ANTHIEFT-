@@ -1,50 +1,52 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
+	
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, width=device-width">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sulphur Point:wght@400;700&display=swap" />
-    <title>Registrarse en Anthieft</title>
-    <link rel="stylesheet" href="CSS/Registro.css">
-
-
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro</title>
+	<link rel="stylesheet" href="Registrarse.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <div class="sign-up-page">
-    <div class="sign-up-page-child">
-    </div>
-    <div class="sign-up-page-item">
-    </div>
-    <b class="registrarse">REGISTRARSE</b>
-    <b class="regstrate">Regístrate</b>
-    <div class="nombres-y-apellidos-container">
-        <p class="nombres-y-apellidos">Nombres y Apellidos</p>
-        <p class="nombres-y-apellidos">Correo electrónico</p>
-        <p class="nombres-y-apellidos">Repetir correo electrónico</p>
-        <p class="nombres-y-apellidos">Contraseña</p>
-        <p class="repetir-contrasea">Repetir contraseña</p>
-    </div>
-    <img class="sign-up-page-inner" alt="" src="Line 1.svg">
-
-    <img class="line-icon" alt="" src="Line 2.svg">
-
-    <img class="sign-up-page-child1" alt="" src="Line 3.svg">
-
-    <img class="sign-up-page-child2" alt="" src="Line 4.svg">
-
-    <img class="sign-up-page-child3" alt="" src="Line 5.svg">
-
-    <div class="rectangle-div">
-    </div>
-    <div class="acepto-los-trminos-container">
-        <p class="repetir-contrasea">Acepto los Términos y Condiciones sobre el</p>
-        <p class="repetir-contrasea">uso de la aplicación.</p>
-    </div>
-    <div class="ya-eres-usuario-container">
-        <span>¿Ya eres usuario? </span>
-        <b class="inicia-sesin"><a href="Login.html">Inicia sesión</a></b>
-    </div>
-    </div>
+	
+	<div class="wrapper">
+		<form action="">
+			<h1>Registrarse</h1>
+			<div class="input-box">
+				<input type="text" placeholder="Nombres y Apellidos" required>
+				<i class='bx bxs-user'></i>
+			</div>
+			<div class="input-box">
+				<input type="text" placeholder="Correo Electrónico" required>
+				<i class='bx bx-envelope'></i>
+			</div>
+			<div class="input-box">
+				<input type="text" placeholder="Repetir correo electrónico" required>
+				<i class='bx bxs-envelope' ></i>
+			</div>
+			<div class="input-box">
+				<input type="password" placeholder="Contraseña" required>
+				<i class='bx bx-lock-alt'></i>
+			</div>
+			<div class="input-box">
+				<input type="password" placeholder="Repetir contraseña" required>
+				<i class='bx bxs-lock-alt' ></i>
+			</div>
+			
+			
+			<div class="aceptar-terminos">
+				<label><input type="checkbox"> Acepto los Términos y Condiciones sobre el uso de la aplicación.</label>
+			</div>
+			
+			<button type="submit" class="btn">REGISTRARSE</button>
+			
+			<div class="ya-eres-usuario">
+				<p>¿Ya eres usuario? <a href="#">Inicia sesión</a></p>
+			</div>
+		</form>
+	</div>
 </body>
 </html>
