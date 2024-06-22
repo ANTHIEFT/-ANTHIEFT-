@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Sulphur Point", sans-serif;
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+.seguimiento-de-autoridad-child {
+    position: absolute;
+    top: 38px;
+    left: 45px;
+    width: 13px;
+    height: 24px;
+    object-fit: contain;
+}
+.seguimiento-de-reporte {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+	font-size: 20px;
+}
+.seguimiento-de-autoridad-item {
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    border-radius: 24px;
+    background-color: #d9d9d9;
+    width: 1300px;
+    height: 100px;
+}
+.actualizacin-de-estado {
+	position: absolute;
+    left: 0px;
+    margin-block-start: -65px;
+    margin-block-end: 14px;
+	font-size: 20px;
+}
+.en-este-momento {
+    margin: 0;
+	margin-block-start: -30px;
+    margin-block-end: 14px;
+    font-size: 30px;
+}
+.actualizacin-de-estado-container {
+    position: absolute;
+    top: 150px;
+    left: 141px;
+    text-align: left;
+    font-size: 30px;
+}
+.captura-de-pantalla-2024-04-14 {
+    position: absolute;
+    top: 328px;
+    left: 110px;
+    border-radius: 20px;
+    width: 1700px;
+    height: 713px;
+    object-fit: cover;
+}
+.seguimiento-de-autoridad {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 1080px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+    font-family: 'Sulphur Point';
+}
+
+iframe{
+	position: absolute;
+    top: 188px;
+    left: 110px;
+    border-radius: 20px;
+    width: 1300px;
+    height: 713px;
+    object-fit: cover;
+}
+
+#preloader{
+	background: #fff url(images/CargandoAnthieft.gif) no-repeat center center;
+	background-size: 15%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
