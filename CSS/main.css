@@ -266,4 +266,11 @@ body {
     color: #000;
     font-family: 'Sulphur Point';
 }
-
+#preloader{
+	background: #fff url(CargandoAnthieft.gif) no-repeat center center;
+	background-size: 15%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
