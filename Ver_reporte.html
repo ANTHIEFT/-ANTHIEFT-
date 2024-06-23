@@ -10,6 +10,8 @@
   	
 </head>
 <body>
+
+	<div id="preloader"></div>
 	
 	<main class="reports-container">
   <header class="reports-header">Tus reportes</header>
@@ -60,7 +62,15 @@
     <p class="results-count">Mostrando 2 resultados</p>
   </section>
 </main>
-  	
+  <script>
+	
+		var loader = document.getElementById("preloader");
+		
+		window.addEventListener("load", function(){
+			loader.style.display = "none";
+		})
+	
+	</script>
   	
 </body>
 </html>
