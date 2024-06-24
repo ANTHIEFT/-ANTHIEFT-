@@ -47,6 +47,12 @@
   font: 700 18px Open Sans, sans-serif;
 }
 
+.report-link-1 {
+  color: #A6A6A6;
+  align-self: flex-end;
+  font: 600 16px Open Sans, sans-serif;
+}
+
 .report-link {
   color: #0085ff;
   align-self: flex-end;
